@@ -1,0 +1,2013 @@
+{
+  "_comment" : "Created with OWL2VOWL (version 0.3.5), http://vowl.visualdataweb.org",
+  "header" : {
+    "languages" : [ "en" ],
+    "baseIris" : [ "http://www.w3.org/1999/02/22-rdf-syntax-ns", "http://www.w3.org/2000/01/rdf-schema", "http://www.w3.org/2001/XMLSchema", "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology" ],
+    "title" : {
+      "en" : "Medical Devices under PEC2 to UOC"
+    },
+    "iri" : "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology#",
+    "version" : "1.0",
+    "author" : [ "Antonio Sáez Jiménez" ],
+    "labels" : {
+      "en" : "Medical Devices UOC"
+    },
+    "comments" : {
+      "en" : "This is an ontology for PEC2 on second semester in IT Grade of course 2025-2026. This ontologý has been realized by Antonio Sáez Jiménez"
+    },
+    "other" : {
+      "creator" : [ {
+        "identifier" : "creator",
+        "language" : "en",
+        "value" : "Antonio Sáez Jiménez",
+        "type" : "label"
+      } ],
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "en",
+        "value" : "Antonio Sáez Jiménez",
+        "type" : "label"
+      } ],
+      "versionInfo" : [ {
+        "identifier" : "versionInfo",
+        "language" : "en",
+        "value" : "1.0",
+        "type" : "label"
+      } ],
+      "title" : [ {
+        "identifier" : "title",
+        "language" : "en",
+        "value" : "Medical Devices under PEC2 to UOC",
+        "type" : "label"
+      } ]
+    }
+  },
+  "namespace" : [ ],
+  "class" : [ {
+    "id" : "3",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "10",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "11",
+    "type" : "owl:intersectionOf"
+  }, {
+    "id" : "12",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "15",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "16",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "20",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "21",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "22",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "23",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "26",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "27",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "29",
+    "type" : "owl:intersectionOf"
+  }, {
+    "id" : "34",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "37",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "38",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "39",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "19",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "43",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "44",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "2",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "48",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "6",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "33",
+    "type" : "owl:Class"
+  }, {
+    "id" : "36",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "47",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "62",
+    "type" : "owl:Class"
+  }, {
+    "id" : "84",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "57",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "25",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "14",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "89",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "41",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "60",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "74",
+    "type" : "owl:intersectionOf"
+  }, {
+    "id" : "8",
+    "type" : "owl:Class"
+  }, {
+    "id" : "96",
+    "type" : "owl:Class"
+  }, {
+    "id" : "70",
+    "type" : "owl:Class"
+  }, {
+    "id" : "82",
+    "type" : "owl:Class"
+  }, {
+    "id" : "9",
+    "type" : "owl:Class"
+  }, {
+    "id" : "52",
+    "type" : "owl:Class"
+  }, {
+    "id" : "18",
+    "type" : "owl:Class"
+  }, {
+    "id" : "79",
+    "type" : "owl:Class"
+  }, {
+    "id" : "64",
+    "type" : "owl:Class"
+  }, {
+    "id" : "77",
+    "type" : "owl:Class"
+  }, {
+    "id" : "92",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "111",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "94",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "112",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "101",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "54",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "106",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "103",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "114",
+    "type" : "owl:Class"
+  }, {
+    "id" : "5",
+    "type" : "owl:Class"
+  }, {
+    "id" : "50",
+    "type" : "owl:Class"
+  }, {
+    "id" : "88",
+    "type" : "owl:Class"
+  }, {
+    "id" : "67",
+    "type" : "owl:Class"
+  }, {
+    "id" : "72",
+    "type" : "owl:Class"
+  }, {
+    "id" : "1",
+    "type" : "owl:Class"
+  }, {
+    "id" : "86",
+    "type" : "owl:Class"
+  } ],
+  "classAttribute" : [ {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "3",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "10",
+    "label" : {
+      "IRI-based" : "dateTime"
+    }
+  }, {
+    "iri" : "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology#SingleUseDevice",
+    "baseIri" : "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "SingleUseDevice",
+      "en" : "SingleUSeDevice"
+    },
+    "intersection" : [ "5" ],
+    "comment" : {
+      "en" : "This device is for use one time. It isn't reusable."
+    },
+    "attributes" : [ "intersection" ],
+    "id" : "11",
+    "superClasses" : [ "5" ]
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "12",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "15",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "16",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "20",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#decimal",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "21",
+    "label" : {
+      "IRI-based" : "decimal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "22",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "23",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "26",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "27",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology#InVitroDiagnosticDevice",
+    "baseIri" : "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "InVitroDiagnosticDevice",
+      "en" : "InVitroDiagnosticDevice"
+    },
+    "intersection" : [ "5" ],
+    "comment" : {
+      "en" : "Type of device that uses non-invasive in the patient"
+    },
+    "attributes" : [ "intersection" ],
+    "id" : "29",
+    "superClasses" : [ "5" ]
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "34",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "37",
+    "label" : {
+      "IRI-based" : "dateTime"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "38",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "39",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#integer",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "19",
+    "label" : {
+      "IRI-based" : "integer"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "43",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "44",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "2",
+    "label" : {
+      "IRI-based" : "dateTime"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "48",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "6",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology#Manufacturer",
+    "baseIri" : "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Manufacturer",
+      "en" : "Manufacturer"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology#MAN_002",
+      "baseIri" : "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology",
+      "comment" : {
+        "en" : "This is manufacturer 002"
+      },
+      "labels" : {
+        "IRI-based" : "MAN_002",
+        "en" : "Manufacturer 002"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology#MAN_001",
+      "baseIri" : "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology",
+      "annotations" : {
+        "sameAs" : [ {
+          "identifier" : "sameAs",
+          "language" : "en",
+          "value" : "http://dbpedia.org/resource/Medtronic",
+          "type" : "label"
+        } ]
+      },
+      "comment" : {
+        "en" : "This is manufacturer 001"
+      },
+      "labels" : {
+        "IRI-based" : "MAN_001",
+        "en" : "Manufacturer 001"
+      }
+    } ],
+    "comment" : {
+      "en" : "The manufacturer of the devices"
+    },
+    "id" : "33"
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "36",
+    "label" : {
+      "IRI-based" : "boolean"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "47",
+    "label" : {
+      "IRI-based" : "boolean"
+    }
+  }, {
+    "iri" : "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology#ActiveDevice",
+    "baseIri" : "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "ActiveDevice",
+      "en" : "ActiveDevice"
+    },
+    "comment" : {
+      "en" : "Type of device that it uses energy itself for run without energy of human body o gravitiy"
+    },
+    "id" : "62",
+    "superClasses" : [ "5" ]
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "84",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "57",
+    "label" : {
+      "IRI-based" : "boolean"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "25",
+    "label" : {
+      "IRI-based" : "boolean"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "14",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "89",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "41",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "60",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology#ImplantableDevice",
+    "baseIri" : "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "ImplantableDevice",
+      "en" : "ImplantableDevice"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology#DEV_003",
+      "baseIri" : "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology",
+      "comment" : {
+        "en" : "This is device 003"
+      },
+      "labels" : {
+        "IRI-based" : "DEV_003",
+        "en" : "Medical Device 003"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology#DEV_001",
+      "baseIri" : "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology",
+      "comment" : {
+        "en" : "This is device 001"
+      },
+      "labels" : {
+        "IRI-based" : "DEV_001",
+        "en" : "Medical Device 001"
+      }
+    } ],
+    "intersection" : [ "5" ],
+    "comment" : {
+      "en" : "Type of device that implants in the patient"
+    },
+    "attributes" : [ "intersection" ],
+    "id" : "74",
+    "superClasses" : [ "5" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology#Risk",
+    "baseIri" : "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Risk",
+      "en" : "Risk"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology#RSK_00",
+      "baseIri" : "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology",
+      "comment" : {
+        "en" : "This is the risk 00 electrical device failure"
+      },
+      "labels" : {
+        "IRI-based" : "RSK_00",
+        "en" : "Risk 00 electrical failure"
+      }
+    } ],
+    "comment" : {
+      "en" : "Risk known on the device"
+    },
+    "id" : "8"
+  }, {
+    "iri" : "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology#CompetentAuthority",
+    "baseIri" : "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "CompetentAuthority",
+      "en" : "CompetentAuthority"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology#CompetentAuthority_HPRA",
+      "baseIri" : "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology",
+      "comment" : {
+        "en" : "Health Products Regulatory Authority (HPRA)"
+      },
+      "labels" : {
+        "IRI-based" : "CompetentAuthority_HPRA",
+        "en" : "CA_HPRA"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology#CompetentAuthority_BFARM",
+      "baseIri" : "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology",
+      "annotations" : {
+        "sameAs" : [ {
+          "identifier" : "sameAs",
+          "language" : "en",
+          "value" : "<http://dbpedia.org/resource/Bundesinstitut_für_Arzneimittel_und_Medizinprodukte>",
+          "type" : "label"
+        } ]
+      },
+      "comment" : {
+        "en" : "Bundesinstitut für Arzneimittel und Medizinprodukte (BfArM)"
+      },
+      "labels" : {
+        "IRI-based" : "CompetentAuthority_BFARM",
+        "en" : "CA_BFARM"
+      }
+    } ],
+    "comment" : {
+      "en" : "Competent authority that audit manufacturers"
+    },
+    "id" : "96"
+  }, {
+    "iri" : "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology#UserNotice",
+    "baseIri" : "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "UserNotice",
+      "en" : "UserNotice"
+    },
+    "comment" : {
+      "en" : "User has noticed"
+    },
+    "id" : "70",
+    "superClasses" : [ "18" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology#RiskType",
+    "baseIri" : "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "RiskType",
+      "en" : "RiskType"
+    },
+    "comment" : {
+      "en" : "Type of the Risk"
+    },
+    "id" : "82"
+  }, {
+    "iri" : "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology#RiskCategory",
+    "baseIri" : "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "RiskCategory",
+      "en" : "RiskCategory"
+    },
+    "comment" : {
+      "en" : "Category of the risk"
+    },
+    "id" : "9"
+  }, {
+    "iri" : "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology#NearMissIncident",
+    "baseIri" : "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "NearMissIncident",
+      "en" : "NearMissIncident"
+    },
+    "comment" : {
+      "en" : "Incident without series consequences"
+    },
+    "id" : "52",
+    "superClasses" : [ "1" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology#CorrectiveAction",
+    "baseIri" : "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "CorrectiveAction",
+      "en" : "CorrectiveAction"
+    },
+    "subClasses" : [ "79", "77", "72", "70" ],
+    "comment" : {
+      "en" : "Corrective action that fix an incident"
+    },
+    "id" : "18"
+  }, {
+    "iri" : "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology#SafetyAlert",
+    "baseIri" : "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "SafetyAlert",
+      "en" : "SafetyAlert"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology#FSCA_001",
+      "baseIri" : "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology",
+      "comment" : {
+        "en" : "This is the corrective action taken to incident 001"
+      },
+      "labels" : {
+        "IRI-based" : "FSCA_001",
+        "en" : "FSCA 001"
+      }
+    } ],
+    "comment" : {
+      "en" : "Alert of security"
+    },
+    "id" : "79",
+    "superClasses" : [ "18" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology#SelfTestDevice",
+    "baseIri" : "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "SelfTestDevice",
+      "en" : "SelfTestDevice"
+    },
+    "comment" : {
+      "en" : "Device type that monitorize patients"
+    },
+    "id" : "64",
+    "superClasses" : [ "5" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology#Recall",
+    "baseIri" : "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Recall",
+      "en" : "Recall"
+    },
+    "comment" : {
+      "en" : "Recall to user"
+    },
+    "id" : "77",
+    "superClasses" : [ "18" ]
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "92",
+    "label" : {
+      "IRI-based" : "dateTime"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "111",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "94",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "112",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "101",
+    "label" : {
+      "IRI-based" : "dateTime"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "54",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "106",
+    "label" : {
+      "IRI-based" : "boolean"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "103",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology#RegulationFramework",
+    "baseIri" : "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "RegulationFramework",
+      "en" : "RegulationFramework"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology#RegulatoryFramework_MDR",
+      "baseIri" : "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology",
+      "comment" : {
+        "en" : "This is MDR regulatory framework"
+      },
+      "labels" : {
+        "IRI-based" : "RegulatoryFramework_MDR",
+        "en" : "RF_MDR"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology#RegulatoryFramework_IVDR",
+      "baseIri" : "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology",
+      "comment" : {
+        "en" : "This is IVDR regulatory framework"
+      },
+      "labels" : {
+        "IRI-based" : "RegulatoryFramework_IVDR",
+        "en" : "RF_IVDR"
+      }
+    } ],
+    "comment" : {
+      "en" : "Regulation Framework under the device is manufactured"
+    },
+    "id" : "114"
+  }, {
+    "iri" : "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology#MedicalDevice",
+    "baseIri" : "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "MedicalDevice",
+      "en" : "MedicalDevice"
+    },
+    "subClasses" : [ "11", "74", "64", "62", "29", "67" ],
+    "comment" : {
+      "en" : "Medical devices manufacturer to fix some medical issue"
+    },
+    "id" : "5"
+  }, {
+    "iri" : "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology#SeriousIncident",
+    "baseIri" : "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "SeriousIncident",
+      "en" : "SeriousIncident"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology#INC_003",
+      "baseIri" : "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology",
+      "comment" : {
+        "en" : "This is the incident 003 that affects to Medical Device 003"
+      },
+      "labels" : {
+        "IRI-based" : "INC_003",
+        "en" : "Incident 003"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology#INC_001",
+      "baseIri" : "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology",
+      "comment" : {
+        "en" : "This is the incident 001 that affects to Medical Device 001"
+      },
+      "labels" : {
+        "IRI-based" : "INC_001",
+        "en" : "Incident 001"
+      }
+    } ],
+    "comment" : {
+      "en" : "Incident with serious consequences"
+    },
+    "id" : "50",
+    "superClasses" : [ "1" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology#Country",
+    "baseIri" : "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Country",
+      "en" : "Country"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology#IrelandCountry",
+      "baseIri" : "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology",
+      "annotations" : {
+        "sameAs" : [ {
+          "identifier" : "sameAs",
+          "language" : "en",
+          "value" : "http://dbpedia.org/resource/Ireland",
+          "type" : "label"
+        } ]
+      },
+      "comment" : {
+        "en" : "This is the country of Ireland"
+      },
+      "labels" : {
+        "IRI-based" : "IrelandCountry",
+        "en" : "Ireland"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology#GermanyCountry",
+      "baseIri" : "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology",
+      "annotations" : {
+        "sameAs" : [ {
+          "identifier" : "sameAs",
+          "language" : "en",
+          "value" : "http://dbpedia.org/resource/Germany",
+          "type" : "label"
+        } ]
+      },
+      "comment" : {
+        "en" : "This is the country of Germany"
+      },
+      "labels" : {
+        "IRI-based" : "GermanyCountry",
+        "en" : "Germany"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology#ItalyCountry",
+      "baseIri" : "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology",
+      "annotations" : {
+        "sameAs" : [ {
+          "identifier" : "sameAs",
+          "language" : "en",
+          "value" : "http://dbpedia.org/resource/Italy",
+          "type" : "label"
+        } ]
+      },
+      "comment" : {
+        "en" : "This is the country of Italy"
+      },
+      "labels" : {
+        "IRI-based" : "ItalyCountry",
+        "en" : "Italy"
+      }
+    } ],
+    "comment" : {
+      "en" : "Country of the world"
+    },
+    "id" : "88"
+  }, {
+    "iri" : "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology#ActiveImplant",
+    "baseIri" : "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "ActiveImplant",
+      "en" : "ActiveImplant"
+    },
+    "comment" : {
+      "en" : "Type of device that it uses energy from battery without energy of the human body or gravity and it implants in the patient."
+    },
+    "id" : "67",
+    "superClasses" : [ "5" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology#InSituCorrection",
+    "baseIri" : "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "InSituCorrection",
+      "en" : "InSituCorrection"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology#FSCA_003",
+      "baseIri" : "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology",
+      "comment" : {
+        "en" : "This is the corrective action to fix incident 003"
+      },
+      "labels" : {
+        "IRI-based" : "FSCA_003",
+        "en" : "FSCA 003"
+      }
+    } ],
+    "comment" : {
+      "en" : "Correction do In Situ"
+    },
+    "id" : "72",
+    "superClasses" : [ "18" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology#Incident",
+    "baseIri" : "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Incident",
+      "en" : "Incident"
+    },
+    "subClasses" : [ "50", "52" ],
+    "comment" : {
+      "en" : "Incdident that can occurs on a device"
+    },
+    "id" : "1"
+  }, {
+    "iri" : "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology#RiskClass",
+    "baseIri" : "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "RiskClass",
+      "en" : "RiskClass"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology#RiskClass_ClassIII",
+      "baseIri" : "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology",
+      "comment" : {
+        "en" : "This is ClassIII risk class"
+      },
+      "labels" : {
+        "IRI-based" : "RiskClass_ClassIII",
+        "en" : "RC_ClassIII"
+      }
+    } ],
+    "comment" : {
+      "en" : "Class of the Risk"
+    },
+    "id" : "86"
+  } ],
+  "property" : [ {
+    "id" : "0",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "4",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "7",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "13",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "17",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "24",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "28",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "30",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "31",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "32",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "35",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "40",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "42",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "45",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "46",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "49",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "51",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "53",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "55",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "56",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "58",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "59",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "61",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "63",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "65",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "66",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "68",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "69",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "71",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "73",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "75",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "76",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "78",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "80",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "81",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "83",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "85",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "87",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "90",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "91",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "93",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "95",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "97",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "98",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "99",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "100",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "102",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "104",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "105",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "107",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "108",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "109",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "110",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "113",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "115",
+    "type" : "owl:someValuesFrom"
+  }, {
+    "id" : "116",
+    "type" : "owl:someValuesFrom"
+  }, {
+    "id" : "117",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "118",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "119",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "120",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "121",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "122",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "123",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "124",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "125",
+    "type" : "owl:datatypeProperty"
+  } ],
+  "propertyAttribute" : [ {
+    "iri" : "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology#hasDetectionDate",
+    "baseIri" : "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology",
+    "range" : "2",
+    "label" : {
+      "IRI-based" : "hasDetectionDate",
+      "en" : "has detection date"
+    },
+    "domain" : "1",
+    "comment" : {
+      "en" : "Date when incident is detected"
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "0"
+  }, {
+    "iri" : "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology#hasDeviceId",
+    "baseIri" : "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology",
+    "range" : "6",
+    "label" : {
+      "IRI-based" : "hasDeviceId",
+      "en" : "has device ID"
+    },
+    "domain" : "5",
+    "comment" : {
+      "en" : "Device ID"
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "4"
+  }, {
+    "iri" : "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology#hasCategory",
+    "baseIri" : "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology",
+    "range" : "9",
+    "label" : {
+      "IRI-based" : "hasCategory",
+      "en" : "has category"
+    },
+    "domain" : "8",
+    "comment" : {
+      "en" : "Which type of category the risk is"
+    },
+    "attributes" : [ "object" ],
+    "id" : "7"
+  }, {
+    "iri" : "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology#hasRiskName",
+    "baseIri" : "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology",
+    "range" : "14",
+    "label" : {
+      "IRI-based" : "hasRiskName",
+      "en" : "has risk name"
+    },
+    "domain" : "8",
+    "comment" : {
+      "en" : "Name of the risk"
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "13"
+  }, {
+    "iri" : "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology#hasDevicesAffected",
+    "baseIri" : "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology",
+    "range" : "19",
+    "label" : {
+      "IRI-based" : "hasDevicesAffected",
+      "en" : "has devices affected"
+    },
+    "domain" : "18",
+    "comment" : {
+      "en" : "Number of devices affected"
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "17"
+  }, {
+    "iri" : "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology#isIVD",
+    "baseIri" : "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology",
+    "range" : "25",
+    "label" : {
+      "IRI-based" : "isIVD",
+      "en" : "is IVD"
+    },
+    "domain" : "5",
+    "comment" : {
+      "en" : "Device is In Vitro"
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "24"
+  }, {
+    "iri" : "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology#hasProbability",
+    "baseIri" : "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology",
+    "range" : "12",
+    "label" : {
+      "IRI-based" : "hasProbability",
+      "en" : "has probability"
+    },
+    "domain" : "8",
+    "comment" : {
+      "en" : "What probability exists risk occurs"
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "28"
+  }, {
+    "iri" : "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology#hasIncidentDescription",
+    "baseIri" : "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology",
+    "range" : "23",
+    "label" : {
+      "IRI-based" : "hasIncidentDescription",
+      "en" : "has incident description"
+    },
+    "domain" : "1",
+    "comment" : {
+      "en" : "Complete description of the incident"
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "30"
+  }, {
+    "iri" : "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology#hasIncidentID",
+    "baseIri" : "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology",
+    "range" : "22",
+    "label" : {
+      "IRI-based" : "hasIncidentID",
+      "en" : "has incident ID"
+    },
+    "domain" : "1",
+    "comment" : {
+      "en" : "ID of the incident"
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "31"
+  }, {
+    "iri" : "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology#isManufacturerBy",
+    "baseIri" : "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology",
+    "range" : "33",
+    "label" : {
+      "IRI-based" : "isManufacturerBy",
+      "en" : "is manufacturer by"
+    },
+    "domain" : "5",
+    "comment" : {
+      "en" : "Who entity manufacture the device"
+    },
+    "attributes" : [ "object" ],
+    "id" : "32"
+  }, {
+    "iri" : "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology#isReusable",
+    "baseIri" : "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology",
+    "range" : "36",
+    "label" : {
+      "IRI-based" : "isReusable",
+      "en" : "is reusable"
+    },
+    "domain" : "5",
+    "comment" : {
+      "en" : "Indicate if the device can be usable more of one time"
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "35"
+  }, {
+    "iri" : "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology#hasSeverity",
+    "baseIri" : "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology",
+    "range" : "41",
+    "label" : {
+      "IRI-based" : "hasSeverity",
+      "en" : "has severity"
+    },
+    "domain" : "8",
+    "comment" : {
+      "en" : "What severity has the risk"
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "40"
+  }, {
+    "iri" : "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology#hasIMDRFCode",
+    "baseIri" : "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology",
+    "range" : "38",
+    "label" : {
+      "IRI-based" : "hasIMDRFCode",
+      "en" : "has IMDRF code"
+    },
+    "domain" : "8",
+    "comment" : {
+      "en" : "IMDRF Code"
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "42"
+  }, {
+    "iri" : "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology#hasManufacturerID",
+    "baseIri" : "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology",
+    "range" : "26",
+    "label" : {
+      "IRI-based" : "hasManufacturerID",
+      "en" : "has manufacturer ID"
+    },
+    "domain" : "33",
+    "comment" : {
+      "en" : "ID of the manufacturer"
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "45"
+  }, {
+    "iri" : "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology#isActive",
+    "baseIri" : "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology",
+    "range" : "47",
+    "label" : {
+      "IRI-based" : "isActive",
+      "en" : "is active"
+    },
+    "domain" : "5",
+    "comment" : {
+      "en" : "Device has its own energy"
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "46"
+  }, {
+    "range" : "1",
+    "domain" : "50",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "49"
+  }, {
+    "range" : "1",
+    "domain" : "52",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "51"
+  }, {
+    "iri" : "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology#hasContactEmail",
+    "baseIri" : "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology",
+    "range" : "54",
+    "label" : {
+      "IRI-based" : "hasContactEmail",
+      "en" : "has contact eMail"
+    },
+    "domain" : "33",
+    "comment" : {
+      "en" : "eMail of contact with manufacturer"
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "53"
+  }, {
+    "iri" : "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology#hasPatientSex",
+    "baseIri" : "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology",
+    "range" : "20",
+    "label" : {
+      "IRI-based" : "hasPatientSex",
+      "en" : "has patient sex"
+    },
+    "domain" : "1",
+    "comment" : {
+      "en" : "Patient sex"
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "55"
+  }, {
+    "iri" : "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology#isImplantable",
+    "baseIri" : "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology",
+    "range" : "57",
+    "label" : {
+      "IRI-based" : "isImplantable",
+      "en" : "is implantable"
+    },
+    "domain" : "5",
+    "comment" : {
+      "en" : "Device is implanted in patient"
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "56"
+  }, {
+    "iri" : "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology#affectTo",
+    "baseIri" : "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology",
+    "range" : "5",
+    "label" : {
+      "IRI-based" : "affectTo",
+      "en" : "Incident affects to MD"
+    },
+    "domain" : "1",
+    "comment" : {
+      "en" : "Incident that affects to device"
+    },
+    "attributes" : [ "object" ],
+    "id" : "58"
+  }, {
+    "iri" : "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology#hasScope",
+    "baseIri" : "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology",
+    "range" : "60",
+    "label" : {
+      "IRI-based" : "hasScope",
+      "en" : "has scope"
+    },
+    "domain" : "18",
+    "comment" : {
+      "en" : "Scope of the corrective action"
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "59"
+  }, {
+    "range" : "5",
+    "domain" : "62",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "61"
+  }, {
+    "range" : "5",
+    "domain" : "64",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "63"
+  }, {
+    "iri" : "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology#hasOutcome",
+    "baseIri" : "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology",
+    "range" : "15",
+    "label" : {
+      "IRI-based" : "hasOutcome",
+      "en" : "has outcome"
+    },
+    "domain" : "1",
+    "comment" : {
+      "en" : "Outcome occurs on the patient"
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "65"
+  }, {
+    "range" : "5",
+    "domain" : "67",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "66"
+  }, {
+    "range" : "5",
+    "domain" : "29",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "68"
+  }, {
+    "range" : "18",
+    "domain" : "70",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "69"
+  }, {
+    "range" : "18",
+    "domain" : "72",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "71"
+  }, {
+    "range" : "5",
+    "domain" : "74",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "73"
+  }, {
+    "range" : "5",
+    "domain" : "11",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "75"
+  }, {
+    "range" : "18",
+    "domain" : "77",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "76"
+  }, {
+    "range" : "18",
+    "domain" : "79",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "78"
+  }, {
+    "iri" : "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology#fixIncident",
+    "baseIri" : "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology",
+    "range" : "1",
+    "label" : {
+      "IRI-based" : "fixIncident",
+      "en" : "fix incident"
+    },
+    "domain" : "18",
+    "comment" : {
+      "en" : "Corrective action that fix an incident"
+    },
+    "attributes" : [ "object" ],
+    "id" : "80"
+  }, {
+    "iri" : "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology#hasType",
+    "baseIri" : "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology",
+    "range" : "82",
+    "label" : {
+      "IRI-based" : "hasType",
+      "en" : "has type"
+    },
+    "domain" : "8",
+    "comment" : {
+      "en" : "Which type the risk is"
+    },
+    "attributes" : [ "object" ],
+    "id" : "81"
+  }, {
+    "iri" : "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology#hasEudamedSRN",
+    "baseIri" : "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology",
+    "range" : "43",
+    "label" : {
+      "IRI-based" : "hasEudamedSRN",
+      "en" : "has EUDAMED serial number"
+    },
+    "domain" : "33",
+    "comment" : {
+      "en" : "EUDAMED serial number of the manufacturer"
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "83"
+  }, {
+    "iri" : "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology#hasRiskClass",
+    "baseIri" : "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology",
+    "range" : "86",
+    "label" : {
+      "IRI-based" : "hasRiskClass",
+      "en" : "has risk class"
+    },
+    "domain" : "5",
+    "comment" : {
+      "en" : "Relates a device to its MDR/IVDR risk class"
+    },
+    "attributes" : [ "object" ],
+    "id" : "85"
+  }, {
+    "iri" : "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology#isReportedOn",
+    "baseIri" : "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology",
+    "range" : "88",
+    "label" : {
+      "IRI-based" : "isReportedOn",
+      "en" : "is reported on"
+    },
+    "domain" : "1",
+    "comment" : {
+      "en" : "Country where the incident occurs"
+    },
+    "attributes" : [ "object" ],
+    "id" : "87"
+  }, {
+    "iri" : "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology#hasReportDate",
+    "baseIri" : "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology",
+    "range" : "10",
+    "label" : {
+      "IRI-based" : "hasReportDate",
+      "en" : "has report date"
+    },
+    "domain" : "1",
+    "comment" : {
+      "en" : "Date when the incident is reported"
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "90"
+  }, {
+    "iri" : "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology#hasActionDate",
+    "baseIri" : "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology",
+    "range" : "92",
+    "label" : {
+      "IRI-based" : "hasActionDate",
+      "en" : "has action date"
+    },
+    "domain" : "18",
+    "comment" : {
+      "en" : "Start date  of the corrective action"
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "91"
+  }, {
+    "iri" : "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology#hasActionStatus",
+    "baseIri" : "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology",
+    "range" : "94",
+    "label" : {
+      "IRI-based" : "hasActionStatus",
+      "en" : "has action status"
+    },
+    "domain" : "18",
+    "comment" : {
+      "en" : "Status of the corrective action"
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "93"
+  }, {
+    "iri" : "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology#RiskAffectsToMD",
+    "baseIri" : "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology",
+    "range" : "5",
+    "label" : {
+      "IRI-based" : "RiskAffectsToMD",
+      "en" : "Risk affects to MD"
+    },
+    "domain" : "8",
+    "comment" : {
+      "en" : "Risk affects to Medical Device"
+    },
+    "attributes" : [ "object" ],
+    "id" : "95"
+  }, {
+    "iri" : "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology#isRelatedWith",
+    "baseIri" : "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology",
+    "range" : "8",
+    "label" : {
+      "IRI-based" : "isRelatedWith",
+      "en" : "is related with"
+    },
+    "domain" : "1",
+    "comment" : {
+      "en" : "Which incidents is related with Risks"
+    },
+    "attributes" : [ "object" ],
+    "id" : "97"
+  }, {
+    "iri" : "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology#hasEventDate",
+    "baseIri" : "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology",
+    "range" : "37",
+    "label" : {
+      "IRI-based" : "hasEventDate",
+      "en" : "has event date"
+    },
+    "domain" : "1",
+    "comment" : {
+      "en" : "Date when the incident occurs"
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "98"
+  }, {
+    "iri" : "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology#hasManufacturerName",
+    "baseIri" : "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology",
+    "range" : "16",
+    "label" : {
+      "IRI-based" : "hasManufacturerName",
+      "en" : "has manufacturer name"
+    },
+    "domain" : "33",
+    "comment" : {
+      "en" : "Name of the manufacturer"
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "99"
+  }, {
+    "iri" : "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology#hasClosureDate",
+    "baseIri" : "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology",
+    "range" : "101",
+    "label" : {
+      "IRI-based" : "hasClosureDate",
+      "en" : "has closure date"
+    },
+    "domain" : "18",
+    "comment" : {
+      "en" : "Closure date for corrective action"
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "100"
+  }, {
+    "iri" : "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology#hasCountriesAffected",
+    "baseIri" : "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology",
+    "range" : "103",
+    "label" : {
+      "IRI-based" : "hasCountriesAffected",
+      "en" : "has countries affected"
+    },
+    "domain" : "18",
+    "comment" : {
+      "en" : "Countries affected"
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "102"
+  }, {
+    "iri" : "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology#isUnderAuthority",
+    "baseIri" : "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology",
+    "range" : "96",
+    "label" : {
+      "IRI-based" : "isUnderAuthority",
+      "en" : "is under authority"
+    },
+    "domain" : "33",
+    "comment" : {
+      "en" : "Which competent authority regulates manufacturers"
+    },
+    "attributes" : [ "object" ],
+    "id" : "104"
+  }, {
+    "iri" : "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology#hasCorrectiveActionTaken",
+    "baseIri" : "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology",
+    "range" : "106",
+    "label" : {
+      "IRI-based" : "hasCorrectiveActionTaken",
+      "en" : "has corrective action taken"
+    },
+    "domain" : "1",
+    "comment" : {
+      "en" : "Indicate if corrective action is taken"
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "105"
+  }, {
+    "iri" : "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology#hasPatientAge",
+    "baseIri" : "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology",
+    "range" : "21",
+    "label" : {
+      "IRI-based" : "hasPatientAge",
+      "en" : "has patient age"
+    },
+    "domain" : "1",
+    "comment" : {
+      "en" : "Patient age when the incident occurs"
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "107"
+  }, {
+    "iri" : "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology#hasRiskDescription",
+    "baseIri" : "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology",
+    "range" : "3",
+    "label" : {
+      "IRI-based" : "hasRiskDescription",
+      "en" : "has risk ID"
+    },
+    "domain" : "8",
+    "comment" : {
+      "en" : "Description complete of the risk"
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "108"
+  }, {
+    "iri" : "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology#hasEUDAMEDIncidentRef",
+    "baseIri" : "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology",
+    "range" : "44",
+    "label" : {
+      "IRI-based" : "hasEUDAMEDIncidentRef",
+      "en" : "has EUDAMED reference"
+    },
+    "domain" : "1",
+    "comment" : {
+      "en" : "EUDAMED reference of incident"
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "109"
+  }, {
+    "iri" : "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology#hasDeviceName",
+    "baseIri" : "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology",
+    "range" : "48",
+    "label" : {
+      "IRI-based" : "hasDeviceName",
+      "en" : "has device name"
+    },
+    "domain" : "5",
+    "comment" : {
+      "en" : "Device name"
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "110"
+  }, {
+    "iri" : "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology#hasFscaID",
+    "baseIri" : "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology",
+    "range" : "34",
+    "label" : {
+      "IRI-based" : "hasFscaID",
+      "en" : "has ID"
+    },
+    "domain" : "18",
+    "comment" : {
+      "en" : "ID of the corrective action"
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "113"
+  }, {
+    "iri" : "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology#fixIncident",
+    "baseIri" : "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology",
+    "range" : "1",
+    "label" : {
+      "IRI-based" : "fixIncident",
+      "en" : "fix incident"
+    },
+    "domain" : "18",
+    "comment" : {
+      "en" : "Corrective action that fix an incident"
+    },
+    "attributes" : [ "object", "someValues" ],
+    "id" : "115"
+  }, {
+    "iri" : "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology#RiskAffectsToMD",
+    "baseIri" : "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology",
+    "range" : "5",
+    "label" : {
+      "IRI-based" : "RiskAffectsToMD",
+      "en" : "Risk affects to MD"
+    },
+    "domain" : "8",
+    "comment" : {
+      "en" : "Risk affects to Medical Device"
+    },
+    "attributes" : [ "object", "someValues" ],
+    "id" : "116"
+  }, {
+    "iri" : "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology#isPlacedIn",
+    "baseIri" : "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology",
+    "range" : "88",
+    "label" : {
+      "IRI-based" : "isPlacedIn",
+      "en" : "is placed in"
+    },
+    "domain" : "33",
+    "comment" : {
+      "en" : "Country where the manufacturer base is installed"
+    },
+    "attributes" : [ "object" ],
+    "id" : "117"
+  }, {
+    "iri" : "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology#hasUDIDI",
+    "baseIri" : "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology",
+    "range" : "84",
+    "label" : {
+      "IRI-based" : "hasUDIDI",
+      "en" : "has UDI-DI"
+    },
+    "domain" : "5",
+    "comment" : {
+      "en" : "UDI-DI for the device"
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "118"
+  }, {
+    "iri" : "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology#isRegulatedBy",
+    "baseIri" : "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology",
+    "range" : "114",
+    "label" : {
+      "IRI-based" : "isRegulatedBy",
+      "en" : "is regulated by"
+    },
+    "domain" : "5",
+    "comment" : {
+      "en" : "Relates devices with the Regulation Framework (MDR/IVDR)"
+    },
+    "attributes" : [ "object" ],
+    "id" : "119"
+  }, {
+    "iri" : "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology#isNotifiedBy",
+    "baseIri" : "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology",
+    "range" : "33",
+    "label" : {
+      "IRI-based" : "isNotifiedBy",
+      "en" : "is notified by"
+    },
+    "domain" : "1",
+    "comment" : {
+      "en" : "Which manufacturer notifies an incident on their devices"
+    },
+    "attributes" : [ "object" ],
+    "id" : "120"
+  }, {
+    "iri" : "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology#hasRiskID",
+    "baseIri" : "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology",
+    "range" : "89",
+    "label" : {
+      "IRI-based" : "hasRiskID",
+      "en" : "has risk ID"
+    },
+    "domain" : "8",
+    "comment" : {
+      "en" : "ID of the risk"
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "121"
+  }, {
+    "iri" : "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology#hasActionDescription",
+    "baseIri" : "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology",
+    "range" : "111",
+    "label" : {
+      "IRI-based" : "hasActionDescription",
+      "en" : "has action description"
+    },
+    "domain" : "18",
+    "comment" : {
+      "en" : "Description of the corrective action"
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "122"
+  }, {
+    "iri" : "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology#hasIntendedPurpose",
+    "baseIri" : "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology",
+    "range" : "27",
+    "label" : {
+      "IRI-based" : "hasIntendedPurpose",
+      "en" : "has intended purpose"
+    },
+    "domain" : "5",
+    "comment" : {
+      "en" : "Purpose of device"
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "123"
+  }, {
+    "iri" : "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology#hasAuthorizationNumber",
+    "baseIri" : "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology",
+    "range" : "112",
+    "label" : {
+      "IRI-based" : "hasAuthorizationNumber",
+      "en" : "has authorization number"
+    },
+    "domain" : "33",
+    "comment" : {
+      "en" : "Authorization number of the manufacturer"
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "124"
+  }, {
+    "iri" : "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology#hasEUDAMEDFscaRef",
+    "baseIri" : "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology",
+    "range" : "39",
+    "label" : {
+      "IRI-based" : "hasEUDAMEDFscaRef",
+      "en" : "has EUDAMED Reference"
+    },
+    "domain" : "18",
+    "comment" : {
+      "en" : "EUDAMED Reference"
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "125"
+  } ]
+}
