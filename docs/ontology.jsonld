@@ -1,0 +1,1975 @@
+[ {
+  "@id" : "_:genid1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology#fixIncident"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology#Incident"
+  } ]
+}, {
+  "@id" : "_:genid10",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#hasValue" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "@value" : "true"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology#isIVD"
+  } ]
+}, {
+  "@id" : "_:genid12",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#minQualifiedCardinality" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+    "@value" : "1"
+  } ],
+  "http://www.w3.org/2002/07/owl#onClass" : [ {
+    "@id" : "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology#MedicalDevice"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology#affectTo"
+  } ]
+}, {
+  "@id" : "_:genid13",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onClass" : [ {
+    "@id" : "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology#Manufacturer"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology#isManufacturerBy"
+  } ],
+  "http://www.w3.org/2002/07/owl#qualifiedCardinality" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+    "@value" : "1"
+  } ]
+}, {
+  "@id" : "_:genid14",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology#RiskAffectsToMD"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology#MedicalDevice"
+  } ]
+}, {
+  "@id" : "_:genid15",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onClass" : [ {
+    "@id" : "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology#RiskCategory"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology#hasCategory"
+  } ],
+  "http://www.w3.org/2002/07/owl#qualifiedCardinality" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+    "@value" : "1"
+  } ]
+}, {
+  "@id" : "_:genid16",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onClass" : [ {
+    "@id" : "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology#RiskCategory"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology#hasType"
+  } ],
+  "http://www.w3.org/2002/07/owl#qualifiedCardinality" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+    "@value" : "1"
+  } ]
+}, {
+  "@id" : "_:genid17",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#intersectionOf" : [ {
+    "@list" : [ {
+      "@id" : "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology#MedicalDevice"
+    }, {
+      "@id" : "_:genid25"
+    }, {
+      "@id" : "_:genid23"
+    }, {
+      "@id" : "_:genid21"
+    }, {
+      "@id" : "_:genid19"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid19",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#hasValue" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "@value" : "false"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology#isReusable"
+  } ]
+}, {
+  "@id" : "_:genid2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#intersectionOf" : [ {
+    "@list" : [ {
+      "@id" : "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology#MedicalDevice"
+    }, {
+      "@id" : "_:genid6"
+    }, {
+      "@id" : "_:genid4"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid21",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#hasValue" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "@value" : "false"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology#isImplantable"
+  } ]
+}, {
+  "@id" : "_:genid23",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#hasValue" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "@value" : "false"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology#isIVD"
+  } ]
+}, {
+  "@id" : "_:genid25",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#hasValue" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "@value" : "false"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology#isActive"
+  } ]
+}, {
+  "@id" : "_:genid4",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#hasValue" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "@value" : "true"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology#isImplantable"
+  } ]
+}, {
+  "@id" : "_:genid6",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#hasValue" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "@value" : "true"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology#isActive"
+  } ]
+}, {
+  "@id" : "_:genid8",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#intersectionOf" : [ {
+    "@list" : [ {
+      "@id" : "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology#MedicalDevice"
+    }, {
+      "@id" : "_:genid10"
+    } ]
+  } ]
+}, {
+  "@id" : "http://purl.org/dc/elements/1.1/creator",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.org/dc/elements/1.1/title",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology#",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Ontology" ],
+  "http://purl.org/dc/elements/1.1/creator" : [ {
+    "@language" : "en",
+    "@value" : "Antonio Sáez Jiménez"
+  } ],
+  "http://purl.org/dc/elements/1.1/title" : [ {
+    "@language" : "en",
+    "@value" : "Medical Devices under PEC2 to UOC"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "This is an ontology for PEC2 on second semester in IT Grade of course 2025-2026. This ontologý has been realized by Antonio Sáez Jiménez"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@language" : "en",
+    "@value" : "Antonio Sáez Jiménez"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Medical Devices UOC"
+  } ],
+  "http://www.w3.org/2002/07/owl#versionIRI" : [ {
+    "@id" : "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology#1.0.0"
+  } ],
+  "http://www.w3.org/2002/07/owl#versionInfo" : [ {
+    "@language" : "en",
+    "@value" : "1.0"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology#ActiveDevice",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Type of device that it uses energy itself for run without energy of human body o gravitiy"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "ActiveDevice"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology#MedicalDevice"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology#ActiveImplant",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Type of device that it uses energy from battery without energy of the human body or gravity and it implants in the patient."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "ActiveImplant"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology#MedicalDevice"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology#CompetentAuthority",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Competent authority that audit manufacturers"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "CompetentAuthority"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology#CompetentAuthority_BFARM",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology#CompetentAuthority"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Bundesinstitut für Arzneimittel und Medizinprodukte (BfArM)"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "CA_BFARM"
+  } ],
+  "http://www.w3.org/2002/07/owl#sameAs" : [ {
+    "@language" : "en",
+    "@value" : "<http://dbpedia.org/resource/Bundesinstitut_für_Arzneimittel_und_Medizinprodukte>"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology#CompetentAuthority_HPRA",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology#CompetentAuthority"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Health Products Regulatory Authority (HPRA)"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "CA_HPRA"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology#CorrectiveAction",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Corrective action that fix an incident"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "CorrectiveAction"
+  } ],
+  "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
+    "@id" : "_:genid1"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology#Country",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Country of the world"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Country"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology#DEV_001",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology#hasDeviceId" : [ {
+    "@language" : "en",
+    "@value" : "DEV-001"
+  } ],
+  "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology#hasDeviceName" : [ {
+    "@language" : "en",
+    "@value" : "HeartMate 3 LVAD"
+  } ],
+  "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology#hasIntendedPurpose" : [ {
+    "@language" : "en",
+    "@value" : "Ventricular assist device for end-stage heart failure"
+  } ],
+  "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology#hasRiskClass" : [ {
+    "@id" : "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology#RiskClass_ClassIII"
+  } ],
+  "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology#hasUDIDI" : [ {
+    "@language" : "en",
+    "@value" : "(01)00380740009095"
+  } ],
+  "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology#isActive" : [ {
+    "@language" : "en",
+    "@value" : "true"
+  } ],
+  "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology#isIVD" : [ {
+    "@language" : "en",
+    "@value" : "false"
+  } ],
+  "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology#isImplantable" : [ {
+    "@language" : "en",
+    "@value" : "true"
+  } ],
+  "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology#isManufacturerBy" : [ {
+    "@id" : "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology#MAN_001"
+  } ],
+  "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology#isRegulatedBy" : [ {
+    "@id" : "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology#RegulatoryFramework_MDR"
+  } ],
+  "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology#isReusable" : [ {
+    "@language" : "en",
+    "@value" : "false"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology#ImplantableDevice"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "This is device 001"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Medical Device 001"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology#DEV_003",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology#hasDeviceId" : [ {
+    "@language" : "en",
+    "@value" : "DEV-003"
+  } ],
+  "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology#hasDeviceName" : [ {
+    "@language" : "en",
+    "@value" : "Portico Transcatheter Heart Valve"
+  } ],
+  "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology#hasIntendedPurpose" : [ {
+    "@language" : "en",
+    "@value" : "Transcatheter aortic valve replacement (TAVI)"
+  } ],
+  "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology#hasRiskClass" : [ {
+    "@id" : "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology#RiskClass_ClassIII"
+  } ],
+  "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology#hasUDIDI" : [ {
+    "@language" : "en",
+    "@value" : "(01)00800002222291"
+  } ],
+  "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology#isActive" : [ {
+    "@language" : "en",
+    "@value" : "false"
+  } ],
+  "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology#isIVD" : [ {
+    "@language" : "en",
+    "@value" : "false"
+  } ],
+  "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology#isImplantable" : [ {
+    "@language" : "en",
+    "@value" : "true"
+  } ],
+  "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology#isManufacturerBy" : [ {
+    "@id" : "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology#MAN_002"
+  } ],
+  "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology#isRegulatedBy" : [ {
+    "@id" : "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology#RegulatoryFramework_MDR"
+  } ],
+  "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology#isReusable" : [ {
+    "@language" : "en",
+    "@value" : "false"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology#ImplantableDevice"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "This is device 003"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Medical Device 003"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology#FSCA_001",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology#fixIncident" : [ {
+    "@id" : "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology#INC_001"
+  } ],
+  "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology#hasActionDate" : [ {
+    "@language" : "en",
+    "@value" : "2024-02-01"
+  } ],
+  "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology#hasActionDescription" : [ {
+    "@language" : "en",
+    "@value" : "Safety alert issued to all implanting centres regarding anticoagulation protocol update for HeartMate 3 to reduce device thrombosis risk. INR target range revised to 2.0–3.0."
+  } ],
+  "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology#hasActionStatus" : [ {
+    "@language" : "en",
+    "@value" : "Open"
+  } ],
+  "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology#hasCountriesAffected" : [ {
+    "@language" : "en",
+    "@value" : "EU-wide"
+  } ],
+  "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology#hasDevicesAffected" : [ {
+    "@language" : "en",
+    "@value" : "850"
+  } ],
+  "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology#hasEUDAMEDFscaRef" : [ {
+    "@language" : "en",
+    "@value" : "EU-FSCA-2024-000001"
+  } ],
+  "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology#hasScope" : [ {
+    "@language" : "en",
+    "@value" : "All HeartMate 3 LVAD units implanted since 2020"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology#SafetyAlert"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "This is the corrective action taken to incident 001"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "FSCA 001"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology#FSCA_003",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology#fixIncident" : [ {
+    "@id" : "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology#INC_003"
+  } ],
+  "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology#hasActionDate" : [ {
+    "@language" : "en",
+    "@value" : "2024-03-15"
+  } ],
+  "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology#hasActionDescription" : [ {
+    "@language" : "en",
+    "@value" : "Enhanced deployment training and updated IFU for Portico valve implantation technique. New implantation checklist mandatory for all TAVI centres."
+  } ],
+  "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology#hasActionStatus" : [ {
+    "@language" : "en",
+    "@value" : "Closed"
+  } ],
+  "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology#hasClosureDate" : [ {
+    "@language" : "en",
+    "@value" : "2024-06-30"
+  } ],
+  "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology#hasCountriesAffected" : [ {
+    "@language" : "en",
+    "@value" : "EU-wide + UK"
+  } ],
+  "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology#hasDevicesAffected" : [ {
+    "@language" : "en",
+    "@value" : "320"
+  } ],
+  "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology#hasEUDAMEDFscaRef" : [ {
+    "@language" : "en",
+    "@value" : "EU-FSCA-2024-000003"
+  } ],
+  "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology#hasScope" : [ {
+    "@language" : "en",
+    "@value" : "Portico THV sizes 23mm and 25mm from lots before 2023-11"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology#InSituCorrection"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "This is the corrective action to fix incident 003"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "FSCA 003"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology#GermanyCountry",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology#Country"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "This is the country of Germany"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Germany"
+  } ],
+  "http://www.w3.org/2002/07/owl#sameAs" : [ {
+    "@language" : "en",
+    "@value" : "http://dbpedia.org/resource/Germany"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology#INC_001",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology#affectTo" : [ {
+    "@id" : "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology#DEV_001"
+  } ],
+  "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology#hasCorrectiveActionTaken" : [ {
+    "@language" : "en",
+    "@value" : "true"
+  } ],
+  "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology#hasDetectionDate" : [ {
+    "@language" : "en",
+    "@value" : "2024-01-10"
+  } ],
+  "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology#hasEUDAMEDIncidentRef" : [ {
+    "@language" : "en",
+    "@value" : "EU-INC-2024-000001"
+  } ],
+  "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology#hasEventDate" : [ {
+    "@language" : "en",
+    "@value" : "2024-01-08"
+  } ],
+  "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology#hasIncidentDescription" : [ {
+    "@language" : "en",
+    "@value" : "Patient implanted with HeartMate 3 LVAD developed ischemic stroke 6 months post-implant. Device thrombus confirmed by echocardiography."
+  } ],
+  "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology#hasIncidentID" : [ {
+    "@language" : "en",
+    "@value" : "INC-001"
+  } ],
+  "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology#hasOutcome" : [ {
+    "@language" : "en",
+    "@value" : "Serious patient injury - embolic stroke"
+  } ],
+  "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology#hasPatientAge" : [ {
+    "@language" : "en",
+    "@value" : "58"
+  } ],
+  "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology#hasPatientSex" : [ {
+    "@language" : "en",
+    "@value" : "Male"
+  } ],
+  "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology#hasReportDate" : [ {
+    "@language" : "en",
+    "@value" : "2024-01-15"
+  } ],
+  "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology#isRelatedWith" : [ {
+    "@id" : "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology#RSK_00"
+  } ],
+  "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology#isReportedOn" : [ {
+    "@id" : "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology#GermanyCountry"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology#SeriousIncident"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "This is the incident 001 that affects to Medical Device 001"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Incident 001"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology#INC_003",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology#affectTo" : [ {
+    "@id" : "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology#DEV_003"
+  } ],
+  "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology#hasCorrectiveActionTaken" : [ {
+    "@language" : "en",
+    "@value" : "true"
+  } ],
+  "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology#hasDetectionDate" : [ {
+    "@language" : "en",
+    "@value" : "2024-02-18"
+  } ],
+  "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology#hasEUDAMEDIncidentRef" : [ {
+    "@language" : "en",
+    "@value" : "EU-INC-2024-000003"
+  } ],
+  "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology#hasEventDate" : [ {
+    "@language" : "en",
+    "@value" : "2024-02-15"
+  } ],
+  "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology#hasIncidentDescription" : [ {
+    "@language" : "en",
+    "@value" : "Portico valve showed paravalvular leak grade III due to partial migration 2 weeks post-TAVI procedure."
+  } ],
+  "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology#hasIncidentID" : [ {
+    "@language" : "en",
+    "@value" : "INC-003"
+  } ],
+  "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology#hasOutcome" : [ {
+    "@language" : "en",
+    "@value" : "Surgical intervention required - valve re-anchoring"
+  } ],
+  "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology#hasPatientAge" : [ {
+    "@language" : "en",
+    "@value" : "67"
+  } ],
+  "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology#hasPatientSex" : [ {
+    "@language" : "en",
+    "@value" : "Male"
+  } ],
+  "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology#hasReportDate" : [ {
+    "@language" : "en",
+    "@value" : "2024-02-20"
+  } ],
+  "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology#isRelatedWith" : [ {
+    "@id" : "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology#RSK_00"
+  } ],
+  "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology#isReportedOn" : [ {
+    "@id" : "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology#ItalyCountry"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology#SeriousIncident"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "This is the incident 003 that affects to Medical Device 003"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Incident 003"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology#ImplantableDevice",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Type of device that implants in the patient"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "ImplantableDevice"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology#MedicalDevice"
+  } ],
+  "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
+    "@id" : "_:genid2"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology#InSituCorrection",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Correction do In Situ"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "InSituCorrection"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology#CorrectiveAction"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology#InVitroDiagnosticDevice",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Type of device that uses non-invasive in the patient"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "InVitroDiagnosticDevice"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology#MedicalDevice"
+  } ],
+  "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
+    "@id" : "_:genid8"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology#Incident",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Incdident that can occurs on a device"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Incident"
+  } ],
+  "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
+    "@id" : "_:genid12"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology#IrelandCountry",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology#Country"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "This is the country of Ireland"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Ireland"
+  } ],
+  "http://www.w3.org/2002/07/owl#sameAs" : [ {
+    "@language" : "en",
+    "@value" : "http://dbpedia.org/resource/Ireland"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology#ItalyCountry",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology#Country"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "This is the country of Italy"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Italy"
+  } ],
+  "http://www.w3.org/2002/07/owl#sameAs" : [ {
+    "@language" : "en",
+    "@value" : "http://dbpedia.org/resource/Italy"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology#MAN_001",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology#hasAuthorizationNumber" : [ {
+    "@language" : "en",
+    "@value" : "IE/2017/001234"
+  } ],
+  "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology#hasContactEmail" : [ {
+    "@language" : "en",
+    "@value" : "regulatory@medtronic.com"
+  } ],
+  "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology#hasEudamedSRN" : [ {
+    "@language" : "en",
+    "@value" : "SRN-IE-MED-0001"
+  } ],
+  "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology#hasManufacturerID" : [ {
+    "@language" : "en",
+    "@value" : "MAN-001"
+  } ],
+  "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology#hasManufacturerName" : [ {
+    "@language" : "en",
+    "@value" : "Medtronic plc"
+  } ],
+  "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology#isPlacedIn" : [ {
+    "@id" : "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology#IrelandCountry"
+  } ],
+  "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology#isUnderAuthority" : [ {
+    "@id" : "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology#CompetentAuthority_HPRA"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology#Manufacturer"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "This is manufacturer 001"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Manufacturer 001"
+  } ],
+  "http://www.w3.org/2002/07/owl#sameAs" : [ {
+    "@language" : "en",
+    "@value" : "http://dbpedia.org/resource/Medtronic"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology#MAN_002",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology#hasAuthorizationNumber" : [ {
+    "@language" : "en",
+    "@value" : "DE/2017/005678"
+  } ],
+  "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology#hasContactEmail" : [ {
+    "@language" : "en",
+    "@value" : "regulatory@abbott.com"
+  } ],
+  "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology#hasEudamedSRN" : [ {
+    "@language" : "en",
+    "@value" : "SRN-DE-MED-0002"
+  } ],
+  "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology#hasManufacturerID" : [ {
+    "@language" : "en",
+    "@value" : "MAN-002"
+  } ],
+  "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology#hasManufacturerName" : [ {
+    "@language" : "en",
+    "@value" : "Abbott Medical Devices"
+  } ],
+  "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology#isPlacedIn" : [ {
+    "@id" : "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology#GermanyCountry"
+  } ],
+  "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology#isUnderAuthority" : [ {
+    "@id" : "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology#CompetentAuthority_BFARM"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology#Manufacturer"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "This is manufacturer 002"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Manufacturer 002"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology#Manufacturer",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "The manufacturer of the devices"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Manufacturer"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology#MedicalDevice",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Medical devices manufacturer to fix some medical issue"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "MedicalDevice"
+  } ],
+  "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
+    "@id" : "_:genid13"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology#NearMissIncident",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Incident without series consequences"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "NearMissIncident"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology#Incident"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology#RSK_00",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology#hasIMDRFCode" : [ {
+    "@language" : "en",
+    "@value" : "A0101"
+  } ],
+  "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology#hasProbability" : [ {
+    "@language" : "en",
+    "@value" : "Low"
+  } ],
+  "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology#hasRiskDescription" : [ {
+    "@language" : "en",
+    "@value" : "RSK-00"
+  } ],
+  "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology#hasRiskName" : [ {
+    "@language" : "en",
+    "@value" : "Device failure - electrical"
+  } ],
+  "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology#hasSeverity" : [ {
+    "@language" : "en",
+    "@value" : "Critical"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology#Risk"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "This is the risk 00 electrical device failure"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Risk 00 electrical failure"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology#Recall",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Recall to user"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Recall"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology#CorrectiveAction"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology#RegulationFramework",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Regulation Framework under the device is manufactured"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "RegulationFramework"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology#RegulatoryFramework_IVDR",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology#RegulationFramework"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "This is IVDR regulatory framework"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "RF_IVDR"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology#RegulatoryFramework_MDR",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology#RegulationFramework"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "This is MDR regulatory framework"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "RF_MDR"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology#Risk",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Risk known on the device"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Risk"
+  } ],
+  "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
+    "@id" : "_:genid14"
+  }, {
+    "@id" : "_:genid15"
+  }, {
+    "@id" : "_:genid16"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology#RiskAffectsToMD",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Risk affects to Medical Device"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology#Risk"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Risk affects to MD"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology#MedicalDevice"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology#RiskCategory",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Category of the risk"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "RiskCategory"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology#RiskClass",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Class of the Risk"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "RiskClass"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology#RiskClass_ClassIII",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology#RiskClass"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "This is ClassIII risk class"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "RC_ClassIII"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology#RiskType",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Type of the Risk"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "RiskType"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology#SafetyAlert",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Alert of security"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "SafetyAlert"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology#CorrectiveAction"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology#SelfTestDevice",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Device type that monitorize patients"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "SelfTestDevice"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology#MedicalDevice"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology#SeriousIncident",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Incident with serious consequences"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "SeriousIncident"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology#Incident"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology#SingleUseDevice",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "This device is for use one time. It isn't reusable."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "SingleUSeDevice"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology#MedicalDevice"
+  } ],
+  "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
+    "@id" : "_:genid17"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology#UserNotice",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "User has noticed"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "UserNotice"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology#CorrectiveAction"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology#affectTo",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Incident that affects to device"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology#Incident"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Incident affects to MD"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology#MedicalDevice"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology#fixIncident",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Corrective action that fix an incident"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology#CorrectiveAction"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "fix incident"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology#Incident"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology#hasActionDate",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Start date  of the corrective action"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology#CorrectiveAction"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "has action date"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#dateTime"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology#hasActionDescription",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Description of the corrective action"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology#CorrectiveAction"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "has action description"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology#hasActionStatus",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Status of the corrective action"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology#CorrectiveAction"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "has action status"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology#hasAuthorizationNumber",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Authorization number of the manufacturer"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology#Manufacturer"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "has authorization number"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology#hasCategory",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Which type of category the risk is"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology#Risk"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "has category"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology#RiskCategory"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology#hasClosureDate",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Closure date for corrective action"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology#CorrectiveAction"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "has closure date"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#dateTime"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology#hasContactEmail",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "eMail of contact with manufacturer"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology#Manufacturer"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "has contact eMail"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology#hasCorrectiveActionTaken",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Indicate if corrective action is taken"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology#Incident"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "has corrective action taken"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#boolean"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology#hasCountriesAffected",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Countries affected"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology#CorrectiveAction"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "has countries affected"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology#hasDetectionDate",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Date when incident is detected"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology#Incident"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "has detection date"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#dateTime"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology#hasDeviceId",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Device ID"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology#MedicalDevice"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "has device ID"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology#hasDeviceName",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Device name"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology#MedicalDevice"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "has device name"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology#hasDevicesAffected",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Number of devices affected"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology#CorrectiveAction"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "has devices affected"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#integer"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology#hasEUDAMEDFscaRef",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "EUDAMED Reference"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology#CorrectiveAction"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "has EUDAMED Reference"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology#hasEUDAMEDIncidentRef",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "EUDAMED reference of incident"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology#Incident"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "has EUDAMED reference"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology#hasEudamedSRN",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "EUDAMED serial number of the manufacturer"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology#Manufacturer"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "has EUDAMED serial number"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology#hasEventDate",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Date when the incident occurs"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology#Incident"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "has event date"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#dateTime"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology#hasFscaID",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "ID of the corrective action"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology#CorrectiveAction"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "has ID"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology#hasIMDRFCode",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "IMDRF Code"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology#Risk"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "has IMDRF code"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology#hasIncidentDescription",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Complete description of the incident"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology#Incident"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "has incident description"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology#hasIncidentID",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "ID of the incident"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology#Incident"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "has incident ID"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology#hasIntendedPurpose",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Purpose of device"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology#MedicalDevice"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "has intended purpose"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology#hasManufacturerID",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "ID of the manufacturer"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology#Manufacturer"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "has manufacturer ID"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology#hasManufacturerName",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Name of the manufacturer"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology#Manufacturer"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "has manufacturer name"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology#hasOutcome",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Outcome occurs on the patient"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology#Incident"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "has outcome"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology#hasPatientAge",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Patient age when the incident occurs"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology#Incident"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "has patient age"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#decimal"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology#hasPatientSex",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Patient sex"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology#Incident"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "has patient sex"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology#hasProbability",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "What probability exists risk occurs"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology#Risk"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "has probability"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology#hasReportDate",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Date when the incident is reported"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology#Incident"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "has report date"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#dateTime"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology#hasRiskClass",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Relates a device to its MDR/IVDR risk class"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology#MedicalDevice"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "has risk class"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology#RiskClass"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology#hasRiskDescription",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Description complete of the risk"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology#Risk"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "has risk ID"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology#hasRiskID",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "ID of the risk"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology#Risk"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "has risk ID"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology#hasRiskName",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Name of the risk"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology#Risk"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "has risk name"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology#hasScope",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Scope of the corrective action"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology#CorrectiveAction"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "has scope"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology#hasSeverity",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "What severity has the risk"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology#Risk"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "has severity"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology#hasType",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Which type the risk is"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology#Risk"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "has type"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology#RiskType"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology#hasUDIDI",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "UDI-DI for the device"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology#MedicalDevice"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "has UDI-DI"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology#isActive",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Device has its own energy"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology#MedicalDevice"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "is active"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#boolean"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology#isIVD",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Device is In Vitro"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology#MedicalDevice"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "is IVD"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#boolean"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology#isImplantable",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Device is implanted in patient"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology#MedicalDevice"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "is implantable"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#boolean"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology#isManufacturerBy",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Who entity manufacture the device"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology#MedicalDevice"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "is manufacturer by"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology#Manufacturer"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology#isNotifiedBy",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Which manufacturer notifies an incident on their devices"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology#Incident"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "is notified by"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology#Manufacturer"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology#isPlacedIn",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Country where the manufacturer base is installed"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology#Manufacturer"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "is placed in"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology#Country"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology#isRegulatedBy",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Relates devices with the Regulation Framework (MDR/IVDR)"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology#MedicalDevice"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "is regulated by"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology#RegulationFramework"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology#isRelatedWith",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Which incidents is related with Risks"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology#Incident"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "is related with"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology#Risk"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology#isReportedOn",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Country where the incident occurs"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology#Incident"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "is reported on"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology#Country"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology#isReusable",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Indicate if the device can be usable more of one time"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology#MedicalDevice"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "is reusable"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#boolean"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology#isUnderAuthority",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Which competent authority regulates manufacturers"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology#Manufacturer"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "is under authority"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/toño/ontologies/2026/3/MedicalDevices-PEC2-ontology#CompetentAuthority"
+  } ]
+}, {
+  "@id" : "http://www.w3.org/2002/07/owl#sameAs",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+} ]
